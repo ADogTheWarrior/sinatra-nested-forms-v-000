@@ -17,7 +17,7 @@ module FormsLab
       # "two"=>{"name"=>"ht", "type"=>"hg", "booty"=>"wetr"}}}}
       @params = params
       puts params
-      binding.pry
+      #binding.pry
       pirate = Pirate.new
 
       pirate.name = params[:pirate][:name]
